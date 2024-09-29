@@ -43,9 +43,9 @@ app.post("/create_preference", async (req, res) => {
         },
       ],
       back_urls: {
-        success: "https://www.youtube.com/@onthecode", // URLs de retorno (debes ajustarlas según tu proyecto)
-        failure: "https://www.youtube.com/@onthecode",
-        pending: "https://www.youtube.com/@onthecode",
+        success: "https://bairesrealestate.online/success", // Cambia según tu lógica
+        failure: "https://bairesrealestate.online/failure",
+        pending: "https://bairesrealestate.online/pending",
       },
       auto_return: "approved", // Retorno automático cuando el pago es aprobado
     };
